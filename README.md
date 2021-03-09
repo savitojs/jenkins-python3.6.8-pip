@@ -15,5 +15,5 @@ To build the docker image, run:
 To run the jenkins:
 
 ```
-docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 savitojs/jenkins-python3.6.8-pip
+podman run --rm -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 quay.io/savitojs/jenkins-python3.6.8-pip
 ```
