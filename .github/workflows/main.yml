@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       IMAGE_NAME: jenkins-python3.6.8-pip
-      IMAGE_TAGS: latest v1
+      IMAGE_TAGS: latest
 
     steps:
     - uses: actions/checkout@v2
