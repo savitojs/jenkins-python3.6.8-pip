@@ -1,6 +1,9 @@
-name: Build Image using Containerfile and Push Image to Quay.io
-on: [ push ]
-
+name: Build Image using Containerfile and Push Image to Quay.io on Push and schedule
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 14 * * 1'
 jobs:
   build:
     name: Build and push image
