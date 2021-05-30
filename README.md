@@ -3,7 +3,7 @@ This OCI image is based upon CentOS 7 LTS Jenkins (jenkins/jenkins:lts-centos7) 
 
 
 [![Docker Repository on Quay](https://quay.io/repository/savitojs/jenkins-python3.6.8-pip/status "Docker Repository on Quay")](https://quay.io/repository/savitojs/jenkins-python3.6.8-pip)
-[![Build Status](https://img.shields.io/badge/ocker-Build-green)](https://hub.docker.com/repository/docker/savitojs/jenkins-python3.6.8-pip)
+[![Build Status](https://img.shields.io/badge/Docker-Build-green)](https://hub.docker.com/repository/docker/savitojs/jenkins-python3.6.8-pip)
 
 
 To build the image, run:
