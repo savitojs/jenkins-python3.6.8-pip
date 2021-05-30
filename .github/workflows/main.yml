@@ -23,7 +23,7 @@ jobs:
         tags: ${{ env.IMAGE_TAGS }}
         base-image: jenkins/jenkins:lts-centos7
         dockerfiles: |
-          ./Containerfile
+          ./Dockerfile
 
     - name: Push To Quay
       id: push-to-quay
