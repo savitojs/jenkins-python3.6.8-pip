@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build and push image
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       IMAGE_NAME: jenkins-python3.6.8-pip
       IMAGE_TAGS: latest
